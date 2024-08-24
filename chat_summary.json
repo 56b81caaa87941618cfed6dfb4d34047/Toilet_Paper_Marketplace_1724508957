@@ -36,5 +36,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Filter options for dinosaur-related toilet paper designs\", \"checked\": true}, {\"feature\": \"Interactive dinosaur-themed game to engage users while shopping\", \"checked\": false}, {\"feature\": \"Dinosaur facts and trivia section for each product\", \"checked\": true}, {\"feature\": \"User rating and review section for dinosaur-themed products\", \"checked\": true}, {\"feature\": \"Special offers and discounts category for dinosaur enthusiasts\", \"checked\": false}, {\"feature\": \"Social media share button for favorite dinosaur-themed toilet paper\", \"checked\": true}], \"input_token_count\": 221, \"output_token_count\": 126, \"time_taken\": \"0:00:03.062561\"}",
         "timestamp": "24082024142331",
         "message_id": "guest24082024142326"
+    },
+    {
+        "role": "user",
+        "content": "Add a button that says: \"Try it out\"",
+        "timestamp": "24082024143320",
+        "message_id": "guest24082024143320"
     }
 ]
