@@ -18,5 +18,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to have a pre-defined subject line related to talking to a dinosaur, or should it be editable by the user?\", \"option1\": \"Pre-defined subject line\", \"option2\": \"Editable by the user\"}, {\"question 2\": \"Should this email form be a part of an existing page, or would you prefer it to be on a separate, dedicated page for dinosaur communications?\", \"option1\": \"Part of an existing page\", \"option2\": \"On a separate, dedicated page\"}], \"input_token_count\": 271, \"output_token_count\": 121, \"time_taken\": \"0:00:02.882357\"}",
         "timestamp": "24082024141821",
         "message_id": "guest24082024141815"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live chat support with an animated dinosaur avatar\", \"checked\": true}, {\"feature\": \"Interactive FAQ section with dinosaur themed answers\", \"checked\": false}, {\"feature\": \"User feedback form for website improvements\", \"checked\": true}, {\"feature\": \"Subscription form for dinosaur-themed newsletters\", \"checked\": false}, {\"feature\": \"Contact us page with dinosaur fun facts\", \"checked\": true}, {\"feature\": \"Animated dinosaur cursor for website navigation\", \"checked\": false}], \"input_token_count\": 225, \"output_token_count\": 113, \"time_taken\": \"0:00:03.018995\"}",
+        "timestamp": "24082024141821",
+        "message_id": "guest24082024141815"
     }
 ]
