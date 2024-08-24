@@ -6,5 +6,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nAdd another menu called dinosaurs"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nAdd a button that says: \"Try it out\""
     }
 ]
