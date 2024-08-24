@@ -12,5 +12,11 @@
         "content": "add an email form to talk to a dinosaur",
         "timestamp": "24082024141815",
         "message_id": "guest24082024141815"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to have a pre-defined subject line related to talking to a dinosaur, or should it be editable by the user?\", \"option1\": \"Pre-defined subject line\", \"option2\": \"Editable by the user\"}, {\"question 2\": \"Should this email form be a part of an existing page, or would you prefer it to be on a separate, dedicated page for dinosaur communications?\", \"option1\": \"Part of an existing page\", \"option2\": \"On a separate, dedicated page\"}], \"input_token_count\": 271, \"output_token_count\": 121, \"time_taken\": \"0:00:02.882357\"}",
+        "timestamp": "24082024141821",
+        "message_id": "guest24082024141815"
     }
 ]
