@@ -6,7 +6,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
 -->
 
 <template>
-  <header class="w-full z-30 bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-lg" id="header-section-container">
+  <header class="w-full z-30 bg-gradient-to-r from-pink-400 to-purple-500 bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg" id="header-section-container">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Site Branding -->
@@ -22,7 +22,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Home-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="Home.html"
               >
                 Home
@@ -31,7 +31,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Products-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="Products.html"
               >
                 Products
@@ -40,7 +40,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="About Us-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="About Us.html"
               >
                 About Us
@@ -49,7 +49,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Bulk Orders-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="Bulk Orders.html"
               >
                 Bulk Orders
@@ -58,7 +58,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Contact-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="Contact.html"
               >
                 Contact
@@ -67,7 +67,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Dinosaurs-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-100"
                 href="Dinosaurs.html"
               >
                 Dinosaurs
@@ -81,7 +81,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           <li>
             <a
               id="sign-in-link"
-              class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-white hover:text-pink-200"
+              class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-white hover:text-pink-100"
               href="signin.html"
             >
               Sign in
@@ -90,10 +90,10 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           <li class="ml-6">
             <a
               id="sign-up-link"
-              class="btn-sm transition duration-150 ease-in-out w-full group relative text-white hover:text-pink-200 bg-purple-700 bg-opacity-50 hover:bg-opacity-70 rounded-full px-4 py-2"
+              class="btn-sm transition duration-150 ease-in-out w-full group relative text-white hover:text-pink-100 bg-purple-600 bg-opacity-50 hover:bg-opacity-70 rounded-full px-4 py-2"
               href="signup.html"
             >
-              <span class="relative inline-flex items-center"> Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-pink-300">-&gt;</span> </span>
+              <span class="relative inline-flex items-center"> Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-pink-200">-&gt;</span> </span>
             </a>
           </li>
         </ul>
@@ -109,7 +109,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             :aria-expanded="expanded"
           >
             <span class="sr-only">Menu</span>
-            <svg id="hamburger-icon" class="w-5 h-5 fill-current transition duration-150 ease-in-out text-white hover:text-pink-200" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg id="hamburger-icon" class="w-5 h-5 fill-current transition duration-150 ease-in-out text-white hover:text-pink-100" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <rect y="2" width="20" height="2" rx="1" />
               <rect y="9" width="20" height="2" rx="1" />
               <rect y="16" width="20" height="2" rx="1" />
@@ -125,24 +125,24 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             @keydown.escape.window="expanded = false"
             x-cloak
           >
-            <ul id="mobile-nav-list" class="rounded-lg px-4 py-1.5 bg-purple-700 bg-opacity-70 backdrop-filter backdrop-blur-lg">
+            <ul id="mobile-nav-list" class="rounded-lg px-4 py-1.5 bg-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg">
               <li>
-                <a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Home.html">Home</a>
+                <a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="Home.html">Home</a>
               </li>
               <li>
-                <a id="mobile-Products-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Products.html">Products</a>
+                <a id="mobile-Products-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="Products.html">Products</a>
               </li>
               <li>
-                <a id="mobile-About Us-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="About Us.html">About Us</a>
+                <a id="mobile-About Us-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="About Us.html">About Us</a>
               </li>
               <li>
-                <a id="mobile-Bulk Orders-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Bulk Orders.html">Bulk Orders</a>
+                <a id="mobile-Bulk Orders-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="Bulk Orders.html">Bulk Orders</a>
               </li>
               <li>
-                <a id="mobile-Contact-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Contact.html">Contact</a>
+                <a id="mobile-Contact-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="Contact.html">Contact</a>
               </li>
               <li>
-                <a id="mobile-Dinosaurs-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Dinosaurs.html">Dinosaurs</a>
+                <a id="mobile-Dinosaurs-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-100" href="Dinosaurs.html">Dinosaurs</a>
               </li>
             </ul>
           </nav>
