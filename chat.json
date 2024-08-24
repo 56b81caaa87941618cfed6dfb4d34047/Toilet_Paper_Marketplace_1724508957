@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add an email form to talk to a dinosaur",
+        "message_id": "guest24082024141815",
+        "timestamp": "24082024141815",
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
