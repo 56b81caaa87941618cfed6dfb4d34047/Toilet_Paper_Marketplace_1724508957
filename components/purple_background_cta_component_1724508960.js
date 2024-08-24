@@ -31,23 +31,27 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
         <div id="content" class="max-w-3xl mx-auto text-center">
           <div id="content-subtitle" class="flex">
             <div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-transparent bg-gradient-to-r from-purple-500 to-purple-200">
-              Flush-worthy Deals, Delivered to Your Door
+              Prehistoric Wisdom, Modern Conversations
             </div>
           </div>
           <div class="flex" id="content-title-container">
             <h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">
-              Roll into Savings: Your Toilet Paper Hub
+              Talk to a Dinosaur Expert
             </h2>
           </div>
           <div class="flex" id="content-body-container">
             <p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">
-              Discover the ultimate online destination for all your toilet paper needs. From ultra-soft to eco-friendly options, we've got your bathroom covered.
+              Want to chat with a prehistoric expert? Enter your email below to start a conversation with one of our friendly dinosaurs!
             </p>
-          </div>
-          <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">
-            Get Started
-            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
-          </a>
+          <form id="email-form" class="mt-8 space-y-4">
+            <div>
+              <label for="email" class="sr-only">Email address</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-purple-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="w-full px-4 py-2 text-white bg-purple-600 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+              Talk to a Dinosaur
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -62,6 +66,17 @@ export default {
       expanded: false,
       tab: null
     };
+  },
+  methods: {
+    // Submit form method
+    submitForm(event) {
+      event.preventDefault();
+      const email = this.$refs.email.value;
+      // Here you would typically send the email to your backend
+      console.log('Email submitted:', email);
+      // Reset the form
+      this.$refs.email.value = '';
+    }
   }
 };
 </script>
