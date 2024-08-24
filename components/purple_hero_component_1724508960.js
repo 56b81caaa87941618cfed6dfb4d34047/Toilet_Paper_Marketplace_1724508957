@@ -46,6 +46,11 @@ INSTRUCTION: 3. Hero content: The main content of the landing page, including an
                 <span id="docs-button-text">Read the docs</span>
               </a>
             </div>
+            <div id="try-it-out-button-container">
+              <a id="try-it-out-button" class="flex items-center justify-center px-6 py-3 text-white bg-purple-600 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50" href="#0">
+                Try it out
+              </a>
+            </div>
           </div>
         </div>
       </div>
