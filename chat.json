@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive TP (Toilet Paper) sample request form\", \"checked\": true}, {\"feature\": \"Real-time chat support button\", \"checked\": false}, {\"feature\": \"User review and rating section for each product\", \"checked\": true}, {\"feature\": \"Subscription model for regular deliveries\", \"checked\": true}, {\"feature\": \"Interactive TP calculator for bulk orders\", \"checked\": false}, {\"feature\": \"TP comparison tool\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 110, \"time_taken\": \"0:00:03.561866\"}",
+        "message_id": "guest24082024143320",
+        "timestamp": "24082024143326",
+        "component_file_name": "purple_hero_component_1724508960",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add a button that says: \"Try it out\"",
         "message_id": "guest24082024143320",
