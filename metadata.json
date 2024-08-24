@@ -4,5 +4,6 @@
     "project_description": "toilet paper marketplace",
     "creation_time": "2024-08-24 10:15:57.626881",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "stellar"
+    "selected_starter_template_id": "stellar",
+    "frontend_theme_prompt": "The image showcases a vibrant, surreal landscape with a dominant color scheme of pink and purple hues, featuring a large planet and moons in a starry sky, and silhouetted mountains and trees in the foreground. The style is futuristic and fantastical, with an ethereal and dreamy atmosphere."
 }
