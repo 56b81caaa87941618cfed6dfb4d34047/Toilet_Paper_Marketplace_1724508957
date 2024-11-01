@@ -2,44 +2,65 @@
     {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive TP (Toilet Paper) sample request form\", \"checked\": true}, {\"feature\": \"Real-time chat support button\", \"checked\": false}, {\"feature\": \"User review and rating section for each product\", \"checked\": true}, {\"feature\": \"Subscription model for regular deliveries\", \"checked\": true}, {\"feature\": \"Interactive TP calculator for bulk orders\", \"checked\": false}, {\"feature\": \"TP comparison tool\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 110, \"time_taken\": \"0:00:03.561866\"}",
+        "message_id": "guest24082024143320",
         "timestamp": "24082024143326",
-        "message_id": "guest24082024143320"
+        "component_file_name": "purple_hero_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "Add a button that says: \"Try it out\"",
+        "message_id": "guest24082024143320",
         "timestamp": "24082024143320",
-        "message_id": "guest24082024143320"
+        "component_file_name": "purple_hero_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Filter options for dinosaur-related toilet paper designs\", \"checked\": true}, {\"feature\": \"Interactive dinosaur-themed game to engage users while shopping\", \"checked\": false}, {\"feature\": \"Dinosaur facts and trivia section for each product\", \"checked\": true}, {\"feature\": \"User rating and review section for dinosaur-themed products\", \"checked\": true}, {\"feature\": \"Special offers and discounts category for dinosaur enthusiasts\", \"checked\": false}, {\"feature\": \"Social media share button for favorite dinosaur-themed toilet paper\", \"checked\": true}], \"input_token_count\": 221, \"output_token_count\": 126, \"time_taken\": \"0:00:03.062561\"}",
+        "message_id": "guest24082024142326",
         "timestamp": "24082024142331",
-        "message_id": "guest24082024142326"
+        "component_file_name": "purple_header_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "Add another menu called dinosaurs",
+        "message_id": "guest24082024142326",
         "timestamp": "24082024142326",
-        "message_id": "guest24082024142326"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to have a pre-defined subject line related to talking to a dinosaur, or should it be editable by the user?\", \"option1\": \"Pre-defined subject line\", \"option2\": \"Editable by the user\"}, {\"question 2\": \"Should this email form be a part of an existing page, or would you prefer it to be on a separate, dedicated page for dinosaur communications?\", \"option1\": \"Part of an existing page\", \"option2\": \"On a separate, dedicated page\"}], \"input_token_count\": 271, \"output_token_count\": 121, \"time_taken\": \"0:00:02.882357\"}",
-        "timestamp": "24082024141821",
-        "message_id": "guest24082024141815"
+        "component_file_name": "purple_header_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Live chat support with an animated dinosaur avatar\", \"checked\": true}, {\"feature\": \"Interactive FAQ section with dinosaur themed answers\", \"checked\": false}, {\"feature\": \"User feedback form for website improvements\", \"checked\": true}, {\"feature\": \"Subscription form for dinosaur-themed newsletters\", \"checked\": false}, {\"feature\": \"Contact us page with dinosaur fun facts\", \"checked\": true}, {\"feature\": \"Animated dinosaur cursor for website navigation\", \"checked\": false}], \"input_token_count\": 225, \"output_token_count\": 113, \"time_taken\": \"0:00:03.018995\"}",
+        "message_id": "guest24082024141815",
         "timestamp": "24082024141821",
-        "message_id": "guest24082024141815"
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the email form to have a pre-defined subject line related to talking to a dinosaur, or should it be editable by the user?\", \"option1\": \"Pre-defined subject line\", \"option2\": \"Editable by the user\"}, {\"question 2\": \"Should this email form be a part of an existing page, or would you prefer it to be on a separate, dedicated page for dinosaur communications?\", \"option1\": \"Part of an existing page\", \"option2\": \"On a separate, dedicated page\"}], \"input_token_count\": 271, \"output_token_count\": 121, \"time_taken\": \"0:00:02.882357\"}",
+        "message_id": "guest24082024141815",
+        "timestamp": "24082024141821",
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add an email form to talk to a dinosaur",
+        "message_id": "guest24082024141815",
         "timestamp": "24082024141815",
-        "message_id": "guest24082024141815"
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "makeinfinite",
@@ -50,15 +71,27 @@
         "div_id": ""
     },
     {
-        "role": "user",
-        "content": "Change the text to be garbage themed",
-        "timestamp": "01112024232213",
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific sections of the app do you want the text to be garbage themed?\", \"option1\": \"All sections should have garbage-themed text\", \"option2\": \"Only specific sections like headings or descriptions should be changed\"}, {\"question 2\": \"Do you have any specific phrases or words in mind that you want to include in the garbage-themed text?\", \"option1\": \"Yes, I have specific phrases\", \"option2\": \"No, I'm open to suggestions\"}], \"input_token_count\": 321, \"output_token_count\": 110, \"time_taken\": \"0:00:01.602609\"}",
+        "message_id": "guest01112024232212",
+        "timestamp": "01112024232216",
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Okay, I will change the text to be garbage themed.",
+        "timestamp": "01112024232216",
         "message_id": "guest01112024232212"
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Okay, I will change the text to be garbage themed.",
+        "role": "user",
+        "content": "Change the text to be garbage themed",
+        "message_id": "guest01112024232212",
         "timestamp": "01112024232213",
-        "message_id": "guest01112024232212"
+        "component_file_name": "purple_background_cta_component_1724508960",
+        "div_id": "",
+        "div_action": ""
     }
 ]
