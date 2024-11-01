@@ -54,5 +54,11 @@
         "content": "Change the text to be garbage themed",
         "timestamp": "01112024232213",
         "message_id": "guest01112024232212"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I will change the text to be garbage themed.",
+        "timestamp": "01112024232213",
+        "message_id": "guest01112024232212"
     }
 ]
