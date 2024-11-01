@@ -30,27 +30,26 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
         <!-- Content -->
         <div id="content" class="max-w-3xl mx-auto text-center">
           <div id="content-subtitle" class="flex">
-            <div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3 text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
-              Prehistoric Wisdom, Modern Conversations
+              Ancient Trash, Modern Conversations
             </div>
           </div>
+          </div>
           <div class="flex" id="content-title-container">
-            <h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 bg-gradient-to-r from-pink-200 via-purple-300 to-pink-200 text-transparent">
-              Talk to a Dinosaur Expert
+              Talk to a Garbage Expert
             </h2>
           </div>
+          </div>
           <div class="flex" id="content-body-container">
-            <p id="content-body" class="flex-1 text-lg mb-8 text-purple-100">
-              Want to chat with a prehistoric expert? Enter your email below to start a conversation with one of our friendly dinosaurs!
+              Want to chat with a waste management expert? Enter your email below to start a conversation with one of our friendly garbage collectors!
             </p>
           <form id="email-form" class="mt-8 space-y-4">
             <div>
               <label for="email" class="sr-only">Email address</label>
               <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-pink-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 bg-white bg-opacity-20 backdrop-filter backdrop-blur-sm text-purple-900 placeholder-purple-300" placeholder="Enter your email">
             </div>
-            <button type="submit" class="w-full px-4 py-2 text-white bg-gradient-to-r from-pink-500 to-purple-600 rounded-md hover:from-pink-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-              Talk to a Dinosaur
+              Talk to a Garbage Collector
             </button>
+          </form>
           </form>
         </div>
       </div>

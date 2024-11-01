@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nAdd a button that says: \"Try it out\""
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: Add a button that says: \"Try it out\"\nUser: Add another menu called dinosaurs\nUser: add an email form to talk to a dinosaur\nUser: Change the text to be garbage themed\n\nThis is the user's current request of changes to be made:\nChange the text to be garbage themed"
     }
 ]
