@@ -1,17 +1,27 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1724508960",
-        "component_file_name": "",
-        "div_id": ""
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive TP (Toilet Paper) sample request form\", \"checked\": true}, {\"feature\": \"Real-time chat support button\", \"checked\": false}, {\"feature\": \"User review and rating section for each product\", \"checked\": true}, {\"feature\": \"Subscription model for regular deliveries\", \"checked\": true}, {\"feature\": \"Interactive TP calculator for bulk orders\", \"checked\": false}, {\"feature\": \"TP comparison tool\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 110, \"time_taken\": \"0:00:03.561866\"}",
+        "timestamp": "24082024143326",
+        "message_id": "guest24082024143320"
     },
     {
         "role": "user",
-        "content": "add an email form to talk to a dinosaur",
-        "timestamp": "24082024141815",
-        "message_id": "guest24082024141815"
+        "content": "Add a button that says: \"Try it out\"",
+        "timestamp": "24082024143320",
+        "message_id": "guest24082024143320"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Filter options for dinosaur-related toilet paper designs\", \"checked\": true}, {\"feature\": \"Interactive dinosaur-themed game to engage users while shopping\", \"checked\": false}, {\"feature\": \"Dinosaur facts and trivia section for each product\", \"checked\": true}, {\"feature\": \"User rating and review section for dinosaur-themed products\", \"checked\": true}, {\"feature\": \"Special offers and discounts category for dinosaur enthusiasts\", \"checked\": false}, {\"feature\": \"Social media share button for favorite dinosaur-themed toilet paper\", \"checked\": true}], \"input_token_count\": 221, \"output_token_count\": 126, \"time_taken\": \"0:00:03.062561\"}",
+        "timestamp": "24082024142331",
+        "message_id": "guest24082024142326"
+    },
+    {
+        "role": "user",
+        "content": "Add another menu called dinosaurs",
+        "timestamp": "24082024142326",
+        "message_id": "guest24082024142326"
     },
     {
         "role": "chat_qna",
@@ -27,26 +37,22 @@
     },
     {
         "role": "user",
-        "content": "Add another menu called dinosaurs",
-        "timestamp": "24082024142326",
-        "message_id": "guest24082024142326"
+        "content": "add an email form to talk to a dinosaur",
+        "timestamp": "24082024141815",
+        "message_id": "guest24082024141815"
     },
     {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Filter options for dinosaur-related toilet paper designs\", \"checked\": true}, {\"feature\": \"Interactive dinosaur-themed game to engage users while shopping\", \"checked\": false}, {\"feature\": \"Dinosaur facts and trivia section for each product\", \"checked\": true}, {\"feature\": \"User rating and review section for dinosaur-themed products\", \"checked\": true}, {\"feature\": \"Special offers and discounts category for dinosaur enthusiasts\", \"checked\": false}, {\"feature\": \"Social media share button for favorite dinosaur-themed toilet paper\", \"checked\": true}], \"input_token_count\": 221, \"output_token_count\": 126, \"time_taken\": \"0:00:03.062561\"}",
-        "timestamp": "24082024142331",
-        "message_id": "guest24082024142326"
+        "role": "makeinfinite",
+        "content": "Can you describe the project a bit more?",
+        "message_id": "project_init",
+        "timestamp": "1724508960",
+        "component_file_name": "",
+        "div_id": ""
     },
     {
         "role": "user",
-        "content": "Add a button that says: \"Try it out\"",
-        "timestamp": "24082024143320",
-        "message_id": "guest24082024143320"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive TP (Toilet Paper) sample request form\", \"checked\": true}, {\"feature\": \"Real-time chat support button\", \"checked\": false}, {\"feature\": \"User review and rating section for each product\", \"checked\": true}, {\"feature\": \"Subscription model for regular deliveries\", \"checked\": true}, {\"feature\": \"Interactive TP calculator for bulk orders\", \"checked\": false}, {\"feature\": \"TP comparison tool\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 110, \"time_taken\": \"0:00:03.561866\"}",
-        "timestamp": "24082024143326",
-        "message_id": "guest24082024143320"
+        "content": "Change the text to be garbage themed",
+        "timestamp": "01112024232213",
+        "message_id": "guest01112024232212"
     }
 ]
